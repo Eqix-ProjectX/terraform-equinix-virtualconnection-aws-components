@@ -1,5 +1,6 @@
 ############# AWS Variables #################
 
+/*
 
 variable "aws_region" {
   description = "AWS Region"
@@ -21,6 +22,7 @@ variable "aws_token" {
   description = "AWS Token"
   type        = string
 }
+*/
 
 variable "aws_vpc_id" {
   description = "AWS VPC ID"
