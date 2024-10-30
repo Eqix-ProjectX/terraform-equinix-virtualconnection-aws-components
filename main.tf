@@ -51,6 +51,7 @@ resource "aws_vpc_security_group_egress_rule" "allow_all_traffic_ipv4" {
 
 
 resource "aws_instance" "ec2_instance" {
+  count = var.nums
   ami                    = "ami-0fff1b9a61dec8a5f"
   instance_type          = "t2.micro"
   subnet_id              = var.aws_subnet_id

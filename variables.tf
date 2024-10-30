@@ -39,3 +39,7 @@ variable "aws_vpg_id" {
   description = "AWS VPG ID"
   type        = string
 }
+variable "nums" {
+  type    = number
+  default = 1
+}
